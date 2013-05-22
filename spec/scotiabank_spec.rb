@@ -1,10 +1,6 @@
 require_relative "../lib/banks/scotiabank.rb"
 require 'vcr'
-
-VCR.configure  do |c|
-  c.cassette_library_dir = 'spec/fixtures/cassettes'
-  c.hook_into :webmock
-end
+require 'vcr_helper'
 
 describe ScotiaBank do
 
