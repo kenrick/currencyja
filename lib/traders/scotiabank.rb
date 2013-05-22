@@ -5,11 +5,7 @@ class ScotiaBank < Trader
   # Internal: Site URL with holds the foriegn exchange rates for scotiabank
   ENDPOINT = "http://www4.scotiabank.com/cgi-bin/ratesTool/depdisplay.cgi?pid=56"
 
-  def initialize
-    super
-  end
-
-  def parsed_markup(doc)
+  def self.parsed_markup(doc)
     currencies = Hash.new
     doc.css("table tr").each do |tr|
       table_cells = tr.css("td")

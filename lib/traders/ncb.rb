@@ -5,11 +5,7 @@ class NCB < Trader
   # Internal: Site URL with holds the foriegn exchange rates for ncb
   ENDPOINT = "http://www.jncb.com/rates/foreignexchangerates"
 
-  def initialize
-    super
-  end
-
-  def parsed_markup(doc)
+  def self.parsed_markup(doc)
     currencies = Hash.new
     doc.css(".rates table tr").each do |tr|
       table_cells = tr.css("td")
