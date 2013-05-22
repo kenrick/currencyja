@@ -1,4 +1,4 @@
-require_relative "../lib/banks/ncb.rb"
+require_relative "../lib/traders/ncb.rb"
 require 'vcr'
 require 'vcr_helper'
 
