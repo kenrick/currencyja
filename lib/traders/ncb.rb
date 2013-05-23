@@ -9,9 +9,9 @@ class NCB < Trader
     currencies = Hash.new
     doc.css(".rates table tr").each do |tr|
       table_cells = tr.css("td")
-      currency_code = table_cells[1]
+      country_code = table_cells[1]
 
-      currencies[currency_code.content.downcase] = {
+      currencies[country_code.content.downcase] = {
         buying: table_cells[4].content.to_f,
         selling: table_cells[2].content.to_f
       }
