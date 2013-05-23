@@ -1,6 +1,6 @@
 require_relative 'trader.rb'
 
-class JNBS < Trader
+class JNBS < Trader::Base
 
   # Internal: Site URL with holds the foriegn exchange rates for ncb
   ENDPOINT = "http://www.jnbs.com/fx-rates-2"

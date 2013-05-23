@@ -1,6 +1,6 @@
 require_relative 'trader.rb'
 
-class FXTrader < Trader
+class FXTrader < Trader::Base
 
   # Internal: Site URL with holds the foriegn exchange rates for fxtrader
   ENDPOINT = "http://www.fxtrader.gkmsonline.com/rates"

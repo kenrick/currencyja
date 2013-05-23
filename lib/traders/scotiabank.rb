@@ -1,6 +1,6 @@
 require_relative 'trader.rb'
 
-class ScotiaBank < Trader
+class ScotiaBank < Trader::Base
 
   # Internal: Site URL with holds the foriegn exchange rates for scotiabank
   ENDPOINT = "http://www4.scotiabank.com/cgi-bin/ratesTool/depdisplay.cgi?pid=56"
