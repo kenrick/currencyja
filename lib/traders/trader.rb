@@ -21,12 +21,12 @@ class Trader
     end
 
     def site
-      @@site ||= Net::HTTP.get(URI(self::ENDPOINT))
+      @site ||= Net::HTTP.get(URI(self::ENDPOINT))
     end
 
     def currencies
-      doc  =  Nokogiri::HTML(site)
-      @@currencies ||= parsed_markup(doc)
+      doc = Nokogiri::HTML(site)
+      @currencies ||= parsed_markup(doc)
     end
 
   end

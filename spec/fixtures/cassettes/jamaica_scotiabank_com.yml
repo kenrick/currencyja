@@ -19,7 +19,7 @@ http_interactions:
       Server:
       - Sun-ONE-Web-Server/6.1
       Date:
-      - Wed, 22 May 2013 16:42:06 GMT
+      - Thu, 23 May 2013 02:10:38 GMT
       Content-Type:
       - text/html; charset=UTF-8;
       Transfer-Encoding:
@@ -67,5 +67,5 @@ http_interactions:
         notice, based on the availability of the funds and changes in the Foreign
         Exchange market.</div>\n\t</div>\n\t\n</div>\n\n</body>\n</html>\n"
     http_version: 
-  recorded_at: Wed, 22 May 2013 16:42:05 GMT
+  recorded_at: Thu, 23 May 2013 02:10:40 GMT
 recorded_with: VCR 2.5.0
