@@ -13,8 +13,20 @@ end
 
 set :database, ENV['DATABASE_URL'] || 'postgres://localhost/currencyja'
 
+helpers do
+  def h(text)
+    Rack::Utils.escape_html(text)
+  end
+
+  def last_update
+    Cambio.first.updated_at.strftime("%a, %b %e at %l:%M %Z")
+  end
+end
+
 
 get '/' do
+  @cambios = Cambio.all.to_json
+  erb :index
 end
 
 get '/api/traders.json' do
@@ -24,6 +36,8 @@ end
 
 get '/api/traders/:currency.json' do
   content_type :json
-  Cambio.all.map { |cambio| { name: cambio.name, currency: cambio.currencies[params[:currency]]} }.to_json
+  Cambio.all.map do |cambio|
+    { name: cambio.name, currency: cambio.currencies[params[:currency]], updated_at: cambio.updated_at}
+  end.to_json
 end
 
