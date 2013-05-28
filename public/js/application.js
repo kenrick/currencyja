@@ -20,7 +20,12 @@ var CurrencyJa = new (Backbone.View.extend({
 CurrencyJa.Models.Trader = Backbone.Model.extend({
   defaults: {currency: 'usd', base: 1},
   buying: function(){
-    return this.get('currencies')[this.get('currency')]['buying'] * this.get('base');
+    if(this.get('currency') === 'eur' && this.get('name') === 'fxtrader'){
+      this.set('currency', 'euro');
+    }
+
+    var currency = this.get('currencies')[this.get('currency')]
+    return currency['buying'] * this.get('base');
   },
 
   selling: function(){
@@ -131,6 +136,7 @@ CurrencyJa.Views.CurrencyButtons = Backbone.View.extend({
       '<button class="btn active">usd</button>' +
       '<button class="btn">gbp</button>' +
       '<button class="btn">cad</button>' +
+      '<button class="btn">eur</button>' +
     '</div>'
   ),
 
