@@ -19,7 +19,7 @@ helpers do
   end
 
   def last_update
-    Cambio.first.updated_at.strftime("%a, %b %e %Y at %l:%M %Z")
+    Cambio.first.updated_at.strftime("%b %e, %Y %H:%M %Z")
   end
 end
 

@@ -4,14 +4,21 @@ var CurrencyJa = new (Backbone.View.extend({
   Collections: {},
   Views: {},
 
+  localize: function(index, el) {
+    var time = new Date($(el).text());
+    $(el).html(time.toString());
+  },
+
   start: function(bootstrap){
     var traders = new CurrencyJa.Collections.Traders(bootstrap);
     var tradersList = new CurrencyJa.Views.TradersList({collection: traders});
     var currencyButtons = new CurrencyJa.Views.CurrencyButtons({collection: traders})
     var currencyForm = new CurrencyJa.Views.CurrencyForm({collection: traders});
-    $("#app").append(currencyButtons.render().el);
-    $("#app").append(currencyForm.render().el);
-    $("#app").append(tradersList.render().el);
+    this.$("#app").append(currencyButtons.render().el);
+    this.$("#app").append(currencyForm.render().el);
+    this.$("#app").append(tradersList.render().el);
+
+    this.$('time').each(this.localize);
   }
 
 }))({el: document.body});
