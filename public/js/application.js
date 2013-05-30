@@ -104,8 +104,7 @@ CurrencyJa.Views.TradersList = Backbone.View.extend({
 
 CurrencyJa.Views.CurrencyForm = Backbone.View.extend({
   template: _.template(
-    '<form> <input class="input-small" name="base" type="text" value="<%= base %>" />' +
-    ' <span class="label label-success">JMD</span>' +
+    '<form> <input class="input-small" name="base" type="text" placeholder="Enter Amount" />' +
     '</form>'
   ),
 
