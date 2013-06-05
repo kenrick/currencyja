@@ -17,12 +17,12 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 23 May 2013 16:10:57 GMT
+      - Wed, 05 Jun 2013 18:23:42 GMT
       Server:
-      - Apache/2.2.22 (Unix) mod_ssl/2.2.22 OpenSSL/0.9.8e-fips-rhel5 DAV/2 mod_auth_passthrough/2.1
+      - Apache/2.2.24 (Unix) mod_ssl/2.2.24 OpenSSL/0.9.8e-fips-rhel5 DAV/2 mod_auth_passthrough/2.1
         mod_bwlimited/1.4 FrontPage/5.0.2.2635
       X-Powered-By:
-      - PHP/5.2.17
+      - PHP/5.4.15
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -32,7 +32,7 @@ http_interactions:
       X-Pingback:
       - http://www.jnbs.com/xmlrpc.php
       Set-Cookie:
-      - PHPSESSID=417b7e0922feb0af77bd079372a64677; path=/
+      - PHPSESSID=c606c0403ab61aea9ed5ad3d0aee8067; path=/
       Connection:
       - close
       Transfer-Encoding:
@@ -78,16 +78,25 @@ http_interactions:
         \ href='http://www.jnbs.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.3.1'
         type='text/css' media='all' />\n<link rel='stylesheet' id='jq_ui_css-css'
         \ href='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/css/jquery-ui-1.8.16.custom.css?ver=1.8.16'
-        type='text/css' media='all' />\n<link rel='stylesheet' id='custom-css'  href='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/css/custom.css?ver=1.0.2'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='custom-css'  href='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/css/custom.css?ver=1.0.4'
         type='text/css' media='all' />\n<link rel='stylesheet' id='tw-pagination-css'
         \ href='http://www.jnbs.com/wp-content/plugins/tw-pagination/tw-pagination.css?ver=1.0'
-        type='text/css' media='screen' />\n<link rel='stylesheet' id='wp-pagenavi-css'
+        type='text/css' media='screen' />\n<link rel='stylesheet' id='wpss_style-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/wordpress-simple-survey/style.css?ver=3.5.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='wpss_uicore-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/wordpress-simple-survey/css/ui.core.css?ver=3.5.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='wpss_uitheme-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/wordpress-simple-survey/css/ui.theme.css?ver=3.5.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='wpss_probar-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/wordpress-simple-survey/css/ui.progressbar.css?ver=3.5.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='wp-pagenavi-css'
         \ href='http://www.jnbs.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70'
         type='text/css' media='all' />\n<link rel='stylesheet' id='counterize_stylesheet-css'
         \ href='http://www.jnbs.com/wp-content/plugins/counterize/counterize.css.php?ver=3.5.1'
         type='text/css' media='all' />\n<script type='text/javascript' src='http://www.jnbs.com/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>\n<script
         type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/article-accordion/js/jquery-ui.js?ver=3.5.1'></script>\n<script
         type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/article-accordion/js/ready.js?ver=3.5.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.9.2'></script>\n<script
         type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/jquery-collapse-o-matic/collapse.min.js?ver=1.3.5'></script>\n<script
         type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/scroll-post-excerpt/scroll-post-excerpt.js?ver=3.5.1'></script>\n<script
         type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/vertical-scroll-recent-post/vertical-scroll-recent-post.js?ver=3.5.1'></script>\n<script
@@ -101,13 +110,26 @@ http_interactions:
         type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js?ver=1.06'></script>\n<script
         type='text/javascript' src='http://www.jnbs.com/wp-includes/js/comment-reply.min.js?ver=3.5.1'></script>\n<script
         type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/vslider/js/vslider.js?ver=3.5.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.9.2'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-includes/js/jquery/ui/jquery.ui.progressbar.min.js?ver=1.9.2'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/wordpress-simple-survey/js/custom.js?ver=2.1.2'></script>\n<script
         type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/counterize/counterize.js.php?ver=3.5.1'></script>\n<style
         type=\"text/css\">img.nothumb{border:0;margin:0 0 0 2px !important;}</style>\n<!--
         Tweet This v1.8.3 b037 mode alpha zeta -->\n<link rel=\"EditURI\" type=\"application/rsd+xml\"
         title=\"RSD\" href=\"http://www.jnbs.com/xmlrpc.php?rsd\" />\n<link rel=\"wlwmanifest\"
         type=\"application/wlwmanifest+xml\" href=\"http://www.jnbs.com/wp-includes/wlwmanifest.xml\"
-        /> \n<meta name=\"generator\" content=\"WordPress 3.5.1\" />\n\r\n<!-- AmberPanther
-        Favicon for WordPress -->\r\n<link rel=\"icon\" type=\"image/png\" href=\"http://www.jnbs.com/favicon.png\"
+        /> \n<meta name=\"generator\" content=\"WordPress 3.5.1\" />\n\n<!-- This
+        site is using AdRotate v3.8.4.3 to display their advertisements - http://www.adrotateplugin.com/
+        -->\n<!-- AdRotate CSS for Blocks -->\n<style type=\"text/css\" media=\"screen\">\n.b-1
+        { overflow:auto;margin:0;padding:0px;clear:none;width:auto;height:auto; }\n.a-1
+        { margin:1px;clear:none;float:left;width:125px;height:125px;border:0; }\n.b-2
+        { overflow:auto;margin:0;padding:0px;clear:none;width:auto;height:auto; }\n.a-2
+        { margin:1px;clear:none;float:left;width:125px;height:125px;border:0; }\n.b-3
+        { overflow:auto;margin:0;padding:0px;clear:none;width:auto;height:auto; }\n.a-3
+        { margin:1px;clear:none;float:left;width:125px;height:125px;border:0; }\n.block_left
+        { clear:left; }\n.block_right { clear:right; }\n.block_both { clear:both;
+        }\n</style>\n<!-- / AdRotate CSS for Blocks -->\n\n\r\n<!-- AmberPanther Favicon
+        for WordPress -->\r\n<link rel=\"icon\" type=\"image/png\" href=\"http://www.jnbs.com/favicon.png\"
         />\r\n<link type=\"text/css\" rel=\"stylesheet\" href=\"http://cdn.mlcalc.com/themes/mlcalc/widget-form.css\"
         /><!-- <meta name=\"NextGEN\" version=\"1.9.5\" /> -->\n\t\t<link rel=\"stylesheet\"
         type=\"text/css\" href=\"http://www.jnbs.com/wp-content/plugins/nivo-slider-for-wordpress/css/nivoslider4wp.css\"
@@ -143,9 +165,9 @@ http_interactions:
         -->\n<!-- Begin Homppage Content Area -->\n    <div id=\"sub-container\" class=\"rounded\">\n
         \       <div class=\"inside\">\n           \n            <!-- Begin Content
         -->\n            <div id=\"content\" class=\"about\">\n\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t<h1>FX
-        Rates</h1>\n\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t<p>\n<!-- Start WP Socializer
-        Plugin - Sharethis Button -->\n<p><span class='st_sharethis' st_title='FX
-        Rates' st_url='http://www.jnbs.com/fx-rates-2' displayText='ShareThis'></span></p>\n<!--
+        Rates</h1>\n\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t      \n      <p>\n<!-- Start
+        WP Socializer Plugin - Sharethis Button -->\n<p><span class='st_sharethis'
+        st_title='FX Rates' st_url='http://www.jnbs.com/fx-rates-2' displayText='ShareThis'></span></p>\n<!--
         End WP Socializer Plugin - Sharethis Button -->\n</p><table id=\"wp-table-reloaded-id-47-no-1\"
         class=\"wp-table-reloaded wp-table-reloaded-id-47 fx-full\">\n<thead>\n<tr
         class=\"row-1 odd\">\n<th class=\"column-1\">&nbsp;</th>\n<th class=\"column-2\"><b>BUYING</b></th>\n<th
@@ -159,47 +181,47 @@ http_interactions:
         odd\">\n<td class=\"column-1\">&nbsp;</td>\n<td class=\"column-2\">&nbsp;</td>\n<td
         class=\"column-3\"><strong>Cash</strong></td>\n<td class=\"column-4\"><strong>LOW
         \          RATE</strong></td>\n<td class=\"column-5\"><strong>BOARD       RATE</strong></td>\n</tr>\n<tr
-        class=\"row-4 even\">\n<td class=\"column-1\"><b>USD</b></td>\n<td class=\"column-2\">97.00
-        &nbsp; </td>\n<td class=\"column-3\">96.50  &nbsp; </div>\n</td>\n<td class=\"column-4\">99.00
-        \  &nbsp; </td>\n<td class=\"column-5\">99.20  &nbsp; </div>\n</td>\n</tr>\n<tr
-        class=\"row-4 even\">\n<td class=\"column-1\"><b>GBP</b></td>\n<td class=\"column-2\">145.43
-        &nbsp; </td>\n<td class=\"column-3\">144.68  &nbsp; </div>\n</td>\n<td class=\"column-4\">149.82
-        \  &nbsp; </td>\n<td class=\"column-5\">150.42  &nbsp; </div>\n</td>\n</tr>\n<tr
-        class=\"row-4 even\">\n<td class=\"column-1\"><b>CAD</b></td>\n<td class=\"column-2\">93.53
-        &nbsp; </td>\n<td class=\"column-3\">92.78  &nbsp; </div>\n</td>\n<td class=\"column-4\">95.86
-        \  &nbsp; </td>\n<td class=\"column-5\">96.45  &nbsp; </div>\n</td>\n</tr>\n<tr
+        class=\"row-4 even\">\n<td class=\"column-1\"><b>USD</b></td>\n<td class=\"column-2\">97.35
+        &nbsp; </td>\n<td class=\"column-3\">96.85  &nbsp; </div>\n</td>\n<td class=\"column-4\">99.50
+        \  &nbsp; </td>\n<td class=\"column-5\">99.70  &nbsp; </div>\n</td>\n</tr>\n<tr
+        class=\"row-4 even\">\n<td class=\"column-1\"><b>GBP</b></td>\n<td class=\"column-2\">148.95
+        &nbsp; </td>\n<td class=\"column-3\">148.20  &nbsp; </div>\n</td>\n<td class=\"column-4\">153.63
+        \  &nbsp; </td>\n<td class=\"column-5\">154.24  &nbsp; </div>\n</td>\n</tr>\n<tr
+        class=\"row-4 even\">\n<td class=\"column-1\"><b>CAD</b></td>\n<td class=\"column-2\">94.15
+        &nbsp; </td>\n<td class=\"column-3\">93.40  &nbsp; </div>\n</td>\n<td class=\"column-4\">96.64
+        \  &nbsp; </td>\n<td class=\"column-5\">97.43  &nbsp; </div>\n</td>\n</tr>\n<tr
         class=\"row-4 even\">\n<td class=\"column-1\"><b>KYD</b></td>\n<td class=\"column-2\">
         &nbsp; </td>\n<td class=\"column-3\">95.00  &nbsp; </div>\n</td>\n<td class=\"column-4\">104.03
         \  &nbsp; </td>\n<td class=\"column-5\">104.50  &nbsp; </div>\n</td>\n</tr>\n<tr
-        class=\"row-4 even\">\n<td class=\"column-1\"><b>EUR</b></td>\n<td class=\"column-2\">119.80
-        &nbsp; </td>\n<td class=\"column-3\">118.80  &nbsp; </div>\n</td>\n<td class=\"column-4\">127.97
-        \  &nbsp; </td>\n<td class=\"column-5\">128.97  &nbsp; </div>\n</td>\n</tr>\n<tr
+        class=\"row-4 even\">\n<td class=\"column-1\"><b>EUR</b></td>\n<td class=\"column-2\">122.38
+        &nbsp; </td>\n<td class=\"column-3\">121.38  &nbsp; </div>\n</td>\n<td class=\"column-4\">130.80
+        \  &nbsp; </td>\n<td class=\"column-5\">131.81  &nbsp; </div>\n</td>\n</tr>\n<tr
         class=\"row-9 odd\">\n<td class=\"column-1\">&nbsp;</td>\n<td class=\"column-2\"><strong>Incoming
         Money Transfers and Giro</strong></td>\n<td class=\"column-3\"></td>\n<td
         class=\"column-4\"><strong>Outgoing JN Money Transfer</strong></td>\n<td class=\"column-5\"><strong>Outgoing
         Moneygram</strong></td>\n</tr>\n<tr class=\"row-4 even\">\n<td class=\"column-1\"><b>USD</b></td>\n<td
-        class=\"column-2\">96.63&nbsp; </div>\n</td>\n<td class=\"column-3\">&nbsp;</td>\n<td
-        class=\"column-4\">98.08  &nbsp; </div>\n</td>\n<td class=\"column-5\">98.04&nbsp;
+        class=\"column-2\">97.15&nbsp; </div>\n</td>\n<td class=\"column-3\">&nbsp;</td>\n<td
+        class=\"column-4\">98.61  &nbsp; </div>\n</td>\n<td class=\"column-5\">98.48&nbsp;
         </div>\n</td>\n</tr>\n<tr class=\"row-4 even\">\n<td class=\"column-1\"><b>GBP</b></td>\n<td
-        class=\"column-2\">144.20&nbsp; </div>\n</td>\n<td class=\"column-3\">&nbsp;</td>\n<td
-        class=\"column-4\">151.41  &nbsp; </div>\n</td>\n<td class=\"column-5\">&nbsp;
+        class=\"column-2\">147.96&nbsp; </div>\n</td>\n<td class=\"column-3\">&nbsp;</td>\n<td
+        class=\"column-4\">155.61  &nbsp; </div>\n</td>\n<td class=\"column-5\">&nbsp;
         </div>\n</td>\n</tr>\n<tr class=\"row-4 even\">\n<td class=\"column-1\"><b>CAD</b></td>\n<td
-        class=\"column-2\">91.73&nbsp; </div>\n</td>\n<td class=\"column-3\">&nbsp;</td>\n<td
-        class=\"column-4\">97.23  &nbsp; </div>\n</td>\n<td class=\"column-5\">&nbsp;
+        class=\"column-2\">92.51&nbsp; </div>\n</td>\n<td class=\"column-3\">&nbsp;</td>\n<td
+        class=\"column-4\">98.06  &nbsp; </div>\n</td>\n<td class=\"column-5\">&nbsp;
         </div>\n</td>\n</tr>\n<tr class=\"row-4 even\">\n<td class=\"column-1\"><b>KYD</b></td>\n<td
-        class=\"column-2\">115.05&nbsp; </div>\n</td>\n<td class=\"column-3\">&nbsp;</td>\n<td
-        class=\"column-4\">118.50  &nbsp; </div>\n</td>\n<td class=\"column-5\">&nbsp;
+        class=\"column-2\">115.61&nbsp; </div>\n</td>\n<td class=\"column-3\">&nbsp;</td>\n<td
+        class=\"column-4\">119.08  &nbsp; </div>\n</td>\n<td class=\"column-5\">&nbsp;
         </div>\n</td>\n</tr>\n<tr class=\"row-4 even\">\n<td class=\"column-1\"><b>EUR</b></td>\n<td
         class=\"column-2\">&nbsp; </div>\n</td>\n<td class=\"column-3\">&nbsp;</td>\n<td
         class=\"column-4\">  &nbsp; </div>\n</td>\n<td class=\"column-5\">&nbsp; </div>\n</td>\n</tr>\n<tr
         class=\"row-15 odd\">\n<td class=\"column-1\"><strong>Postal Orders</strong></td>\n<td
         class=\"column-2\"><b>BUYING</b></td>\n<td class=\"column-3\">&nbsp;</td>\n<td
         class=\"column-4\">&nbsp;</td>\n<td class=\"column-5\">&nbsp;</td>\n</tr>\n<tr>\n<td
-        class=\"column-1\"><b>US Postal Orders</b></td>\n<td class=\"column-2\">96.50&nbsp;</td>\n<td
+        class=\"column-1\"><b>US Postal Orders</b></td>\n<td class=\"column-2\">96.85&nbsp;</td>\n<td
         class=\"column-3\">&nbsp;</td>\n<td class=\"column-4\">&nbsp;</td>\n<td class=\"column-5\">&nbsp;</td>\n</tr>\n<tr>\n<td
-        class=\"column-1\"><b>UK Postal Orders</b></td>\n<td class=\"column-2\">144.68&nbsp;</td>\n<td
+        class=\"column-1\"><b>UK Postal Orders</b></td>\n<td class=\"column-2\">148.20&nbsp;</td>\n<td
         class=\"column-3\">&nbsp;</td>\n<td class=\"column-4\">&nbsp;</td>\n<td class=\"column-5\">&nbsp;</td>\n</tr>\n<tr>\n<td
-        class=\"column-1\"><b>CDN Postal Orders</b></td>\n<td class=\"column-2\">92.78&nbsp;</td>\n<td
+        class=\"column-1\"><b>CDN Postal Orders</b></td>\n<td class=\"column-2\">93.40&nbsp;</td>\n<td
         class=\"column-3\">&nbsp;</td>\n<td class=\"column-4\">&nbsp;</td>\n<td class=\"column-5\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\n<p><span
         style=\"font-family: Arial,Helvetica,sans-serif; font-size: x-small;\">NB:<br
         />\nThe buying rates for amounts in excess of $3,000 are negotiable please
@@ -245,10 +267,10 @@ http_interactions:
         Calculator</a></li>\r\n            <li class=\"cserv\"><a href=\"http://www.jnbs.com/customer-service\">Customer
         Service</a></li>\r\n           <!-- <li class=\"apply\"><a href=\"http://www.jnbs.com/application-form\">Apply
         Now</a></li>-->\r\n        </ul>\r\n        \r\n    </div>\r\n    <div id=\"adv\">\r\n
-        \       <span class=\"adv\">Advertisement</span>\r\n        <div style=\"margin:0;padding:0px;clear:none;width:127px;height:127px;border:0;\"><div
-        style=\"margin:1px;padding:0px;clear:none;float:left;width:125px;height:125px;border:0;\"><a
-        href=\"http://www.jnbs.com/wp-content/plugins/adrotate/adrotate-out.php?track=NSwwLDEsaHR0cDovL3d3dy5qbmJzLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAxMy8wNC9BcHJpbC1QLi1UcmVhdHktMjAxMy5wZGY\"><img
-        src=\"http://205.134.253.213/~jnbsco5/jnbs/wp-content/uploads/2011/10/ptreaty.jpg\"
+        \       <span class=\"adv\">Advertisement</span>\r\n        <div id=\"b-1\"
+        class=\"block_outer b-1\"><div id=\"a-4\" class=\"block_inner a-1 block_both
+        \"><a href=\"http://www.jnbs.com/wp-content/plugins/adrotate/adrotate-out.php?track=NCwwLDEsaHR0cDovL3d3dy5qbmJzLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAxMy8wNi9Nb2JpbGUtVW5pdC1TY2hlZHVsZS1mb3ItQ0MtSlVORS0yMDEzLW9yaWdpbmFsLnBkZg=\"><img
+        src=\"http://205.134.253.213/~jnbsco5/jnbs/wp-content/uploads/2011/10/mobileUnitAd.jpg\"
         /></a></div></div>    </div>\r\n</div>\r\n<!-- End Sidebar -->        <br
         class=\"clearboth\" />\n        </div>\n\n    </div>\n    <!-- End Content
         Area -->\n   <!-- Begin Footer -->\r\n    <div id=\"footer\">\r\n    \t<ul
@@ -261,8 +283,8 @@ http_interactions:
         Scholarship Programme</a></li>\r\n<li><a href=\"http://www.jnbs.com/real-estate-services\">JN
         Real Estate Referral</a></li>\r\n<li><a href=\"http://www.jnbs.com/jn-rewards\">Member
         Benefits</a></li>\r\n<li><a href=\"http://www.nht.gov.jm/contribution-refunds\"
-        target=\"_blank\">NHT Contribution Refunds</a></li>\r\n<li><a href=\"http://www.jnbs.com/wp-content/uploads/2013/05/May-P.-Treaty-2013.pdf\"
-        target=\"_blank\">Private Treaty Listing</a></li>\r\n<li><a href=\"http://www.jnbs.com/wp-content/uploads/2013/04/Mobile-Unit-Schedule-for-CC-MAY-2013-original.pdf\"
+        target=\"_blank\">NHT Contribution Refunds</a></li>\r\n<li><a href=\"#\" target=\"_blank\">Private
+        Treaty Listing</a></li>\r\n<li><a href=\"http://www.jnbs.com/wp-content/uploads/2013/06/Mobile-Unit-Schedule-for-CC-JUNE-2013-original.pdf\"
         target=\"_blank\">UK Mobile Unit Schedule</a></li>\r\n</ul>\r\n                \r\n
         \           </li>\r\n            <li class=\"f-col\">\r\n            \t<h3>Customer
         Service</h3>\r\n<ul>\r\n<li><a href=\"http://www.jnbs.com/atm-locator\">ATM
@@ -369,7 +391,6 @@ http_interactions:
         for(var i=0;i<wc;i++){wpsrasync(wu[i]);} }\r\nfunction wpsrasync(u){var a=document.createElement(\"script\");a.type=\"text/javascript\";a.async=true;a.src=u;var
         s=document.getElementsByTagName(\"script\")[0];s.parentNode.insertBefore(a,s);}
         wpsrload();\r\n</script>\r\n<!--End WP Socializer - Scripts Loader-->\n<script
-        type='text/javascript' src='http://www.jnbs.com/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.9.2'></script>\n<script
         type='text/javascript' src='http://www.jnbs.com/wp-includes/js/jquery/ui/jquery.ui.datepicker.min.js?ver=1.9.2'></script>\n<script
         type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/q-and-a/js/qa.js'></script>\n<script
         type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.18'></script>\n<script
@@ -377,7 +398,7 @@ http_interactions:
         ...\",\"cached\":\"1\"};\n/* ]]> */\n</script>\n<script type='text/javascript'
         src='http://www.jnbs.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.3.1'></script>\n<script
         type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/js/jquery.fullcalendar.min.js?ver=1.5.3'></script>\n<script
-        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/js/jquery.simplemodal.1.4.2.min.js?ver=1.4.2'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/js/jquery.simplemodal.1.4.3.min.js?ver=1.4.3'></script>\n<script
         type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/js/jquery.mousewheel.min.js?ver=3.0.6'></script>\n<script
         type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/js/jquery.jgrowl.min.js?ver=1.2.5'></script>\n<script
         type='text/javascript'>\n/* <![CDATA[ */\nvar custom = {\"is_rtl\":\"\",\"locale\":\"en\",\"start_of_week\":\"1\",\"step_interval\":\"30\",\"datepicker_format\":\"mm\\/dd\\/yy\",\"is24HrTime\":\"\",\"show_weekends\":\"1\",\"agenda_time_format\":\"h:mmt{
@@ -389,7 +410,7 @@ http_interactions:
         been deleted.\",\"add_event\":\"Add Event\",\"edit_event\":\"Edit Event\",\"delete_event\":\"Delete
         this event?\",\"loading\":\"Loading Events...\",\"category_filter_label\":\"Category
         filter label\",\"repeats_every\":\"Repeats Every\",\"until\":\"Until\",\"success\":\"Success!\",\"whoops\":\"Whoops!\",\"ajaxurl\":\"http:\\/\\/www.jnbs.com\\/wp-admin\\/admin-ajax.php\",\"editable\":\"\"};\n/*
-        ]]> */\n</script>\n<script type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/js/jquery.init_show_calendar.js?ver=1.0.2'></script>\n<script
+        ]]> */\n</script>\n<script type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/js/jquery.init_show_calendar.js?ver=1.0.4'></script>\n<script
         type=\"text/javascript\">\r\n\t\r\n\t$(document).ready(function() {\r\n\r\n\t\t$(\"#nl\").keyup(function(){\r\n\t\t\r\n\t\t\tvar
         email = $(\"#nl\").val();\r\n\t\t\r\n\t\t\tif(email != 0)\r\n\t\t\t{\r\n\t\t\t\t\r\n\t\t\t\tif(isValidEmailAddress(email))\r\n\t\t\t\t{\r\n\t\t\t\t\t$(\"#validEmail\").css({\r\n\t\t\t\t\t\t\"background-image\":
         \"url('http://www.jnbs.com/wp-content/themes/jnbs/images/validyes.png')\"\r\n\t\t\t\t\t});\r\n\t\t\t\t}
@@ -409,10 +430,12 @@ http_interactions:
         You entered an invalid email address. Please Try Again.');\r\n\t\t\t\t\treturn
         false;\r\n\t\t\t\t}\r\n\t\t\r\n\t});\r\n\t\r\n\tfunction isValidEmailAddress(emailAddress)
         {\r\n \t\tvar pattern = new RegExp(/^((\"[\\w-\\s]+\")|([\\w-]+(?:\\.[\\w-]+)*)|(\"[\\w-\\s]+\")([\\w-]+(?:\\.[\\w-]+)*))(@((?:[\\w-]+\\.)*\\w[\\w-]{0,66})\\.([a-z]{2,6}(?:\\.[a-z]{2})?)$)|(@\\[?((25[0-5]\\.|2[0-4][0-9]\\.|1[0-9]{2}\\.|[0-9]{1,2}\\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\\]?$)/i);\r\n
-        \t\treturn pattern.test(emailAddress);\r\n\t}\r\n\t\r\n\t</script>\r\n\r\n<script
-        type=\"text/javascript\">\r\n\r\n\t$(function() {\r\n\t\t$(\"#accordion\").tabs(\"#accordion
+        \t\treturn pattern.test(emailAddress);\r\n\t}\r\n\t\r\n\t</script>\r\n<script
+        type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"http://www.jnbs.com/wp-content/themes/jnbs/js/overseas-event-pop.js\"></script>\r\n<script
+        type=\"text/javascript\">\r\n\r\n\t$(function() {\r\n\t\t//$(\"#accordion\").tabs(\"#accordion
         div.pane\", {tabs: 'h2', effect: 'slide', initialIndex: null});\r\n\t\t/*$(\"#wtip\").tooltip({
-        effect: 'slide'});*/\r\n\t\t$(\".dp-body\").hide('fast');\r\n\t\t$(\"h2.dp-title\").click(function(){\r\n\t\t\t$(this).next().slideToggle(400);\r\n\t\t});\r\n\t\t\r\n\t\t$(\"h2.ui-accordion-header\").click(function(){\r\n\t\t\t$(this),parent().find('.pane').css({'display':'none'}).removeClass('current');\r\n\t\t\t$(this).next().slideToggle(400);\r\n\t\t})\r\n\t\t\r\n\t\t\t\t\r\n\t});\r\n</script>\r\n\r\n</body>\r\n</html>"
+        effect: 'slide'});*/\r\n\t\t$(\".dp-body\").hide('fast');\r\n\t\t$(\"h2.dp-title\").click(function(){\r\n\t\t\t$(this).next().slideToggle(400);\r\n\t\t});\r\n\t\t\r\n\t\t$(\"h2.ui-accordion-header\").click(function(){\r\n\t\t\t$(this).parent().find('.pane').css({'display':'none'}).removeClass('current');\r\n\t\t\t$(this).next().slideToggle(400);\r\n\t\t})\r\n\t\t\r\n\t\t\t\t\r\n\t});\r\n</script>\r\n\r\n</body>\r\n</html>"
     http_version: 
-  recorded_at: Thu, 23 May 2013 16:10:58 GMT
+  recorded_at: Wed, 05 Jun 2013 18:23:54 GMT
 recorded_with: VCR 2.5.0

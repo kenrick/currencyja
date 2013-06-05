@@ -17,22 +17,22 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 23 May 2013 02:10:08 GMT
+      - Wed, 05 Jun 2013 18:23:41 GMT
       Server:
       - Apache
       X-Powered-By:
       - PHP/5.2.10-2ubuntu6.5
       Etag:
-      - ! '"d16faf2ea489d9852df264463fbdacce"'
+      - ! '"c393357e516e1b4480b3d0cd14abac7b"'
       Expires:
       - Sun, 19 Nov 1978 05:00:00 GMT
       Cache-Control:
       - must-revalidate
       Set-Cookie:
-      - SESS4aa7b68d1fce4c4fc84a6aa9f01e783f=54d428dfc98851c9ae2f57f44a8cb22c; expires=Sat,
-        15-Jun-2013 05:43:28 GMT; path=/; domain=.fxtrader.gkmsonline.com
+      - SESS4aa7b68d1fce4c4fc84a6aa9f01e783f=6843460ec76a47de5c6b336a4e1d508d; expires=Fri,
+        28-Jun-2013 21:57:01 GMT; path=/; domain=.fxtrader.gkmsonline.com
       Last-Modified:
-      - Wed, 22 May 2013 14:42:00 GMT
+      - Wed, 05 Jun 2013 16:06:00 GMT
       Vary:
       - Accept-Encoding
       Transfer-Encoding:
@@ -122,7 +122,7 @@ http_interactions:
         true, \"loop_slides\": false, \"iframe_width\": 600, \"iframe_height\": 400,
         \"iframe_border\": 1, \"enable_video\": false }, \"nice_menus_options\": {
         \"delay\": \"0\", \"speed\": \"normal\" }, \"cron\": { \"basePath\": \"/poormanscron\",
-        \"runNext\": 1369319973 } });\n//--><!]]>\n</script>\n</head>\n<body class=\"not-front
+        \"runNext\": 1370534649 } });\n//--><!]]>\n</script>\n</head>\n<body class=\"not-front
         not-logged-in i18n-en page-rates section-rates one-sidebar sidebar-second
         page-views\">\n<div id=\"header-top-wrapper\">\n  <div id=\"nav-menu\">  </div>\n
         \ <div id=\"header-top\"> <div class=\"region region-header-top\">\n  <div
@@ -141,7 +141,7 @@ http_interactions:
         id=\"header-wrapper\">\n  <div id=\"header\">\n    <div class=\"section clearfix\">\n
         \                       <div class=\"region region-header\">\n  <div id=\"block-block-4\"
         class=\"block block-block region-odd odd region-count-1 count-5\">\n  \n  <div
-        class=\"content\">\n    <div id=\"fx-logo\"><a href=\"/\"><img src=\"/sites/all/themes/fx_trader/images/fx-logo.png\"
+        class=\"content\">\n    <div id=\"fx-logo\">\n\t<a href=\"/\"><img src=\"/sites/all/themes/fx_trader/images/fx-logo.png\"
         /></a></div>\n  </div>\n\n  </div> <!-- /.block -->\n<div id=\"block-search-0\"
         class=\"block block-search region-even even region-count-2 count-6\">\n  \n
         \ <div class=\"content\">\n    <form action=\"/rates\"  accept-charset=\"UTF-8\"
@@ -152,7 +152,7 @@ http_interactions:
         size=\"15\" value=\"\" title=\"Enter the terms you wish to search for.\" class=\"form-text\"
         />\n</div>\n<input type=\"submit\" name=\"op\" id=\"edit-submit\" value=\"Search\"
         \ class=\"form-submit\" />\n<input type=\"hidden\" name=\"form_build_id\"
-        id=\"form-f404bfe3e80bb317a52ce092dad556f0\" value=\"form-f404bfe3e80bb317a52ce092dad556f0\"
+        id=\"form-0442b6d788a5bf339e2f6b1ec54e3da2\" value=\"form-0442b6d788a5bf339e2f6b1ec54e3da2\"
         \ />\n<input type=\"hidden\" name=\"form_id\" id=\"edit-search-block-form\"
         value=\"search_block_form\"  />\n</div>\n\n</div></form>\n  </div>\n\n  </div>
         <!-- /.block -->\n<div id=\"block-block-12\" class=\"block block-block region-odd
@@ -174,17 +174,18 @@ http_interactions:
         menu-path-news-archive first  odd  last \"><a href=\"/news/archive\">Archive</a></li>\n</ul>\n</li>\n<li
         class=\"menu-1181 menu-path-locations odd \"><a href=\"/locations\">Locations</a></li>\n<li
         class=\"menu-1014 menu-path-faq even \"><a href=\"/faq\">FAQ</a></li>\n<li
-        class=\"menu-2169 menuparent menu-path-promotions-events odd  last \"><a href=\"/promotions/events\"
+        class=\"menu-2169 menuparent menu-path-promotions-events odd \"><a href=\"/promotions/events\"
         title=\"\">Promotions</a><ul><li class=\"menu-2274 menu-path-promotions-campaigns
         first  odd \"><a href=\"/promotions/campaigns\">Campaigns</a></li>\n<li class=\"menu-2275
         menu-path-promotions-events even \"><a href=\"/promotions/events\" title=\"\">Sponsorships</a></li>\n<li
-        class=\"menu-2231 menu-path-promotions-archive odd  last \"><a href=\"/promotions/archive\">Archive</a></li>\n</ul>\n</li>\n</ul>\n
-        \ </div>\n\n  </div> <!-- /.block -->\n</div> <!-- /.region -->\n </div>\n
-        \ </div>\n</div>\n<!-- /.section, /#header -->\n<div id=\"page-wrapper\">\n
-        \ <div id=\"page\">\n    <div id=\"main-wrapper\">\n      <div id=\"main\"
-        class=\"clearfix\">\n        <div id=\"content\" class=\"column\">\n          <div
-        class=\"section\">\n                                                 <h1 class=\"title\">Cheque/Cash
-        daily exchange rates</h1>\n                                                             <div
+        class=\"menu-2231 menu-path-promotions-archive odd  last \"><a href=\"/promotions/archive\">Archive</a></li>\n</ul>\n</li>\n<li
+        class=\"menu-2809 menu-path-business-solutions even  last \"><a href=\"/business-solutions\">Business
+        Solutions</a></li>\n</ul>\n  </div>\n\n  </div> <!-- /.block -->\n</div> <!--
+        /.region -->\n </div>\n  </div>\n</div>\n<!-- /.section, /#header -->\n<div
+        id=\"page-wrapper\">\n  <div id=\"page\">\n    <div id=\"main-wrapper\">\n
+        \     <div id=\"main\" class=\"clearfix\">\n        <div id=\"content\" class=\"column\">\n
+        \         <div class=\"section\">\n                                                 <h1
+        class=\"title\">Cheque/Cash daily exchange rates</h1>\n                                                             <div
         id=\"content-area\"> <div class=\"view view-FXTraderRates view-id-FXTraderRates
         view-display-id-page_1 view-dom-id-2 view-FXTraderRates view-id-FXTraderRates
         view-display-id-page_1 view-dom-id-2\">\n  \n      <div class=\"view-header\">\n
@@ -192,10 +193,10 @@ http_interactions:
         \ \n  \n  \n      <div class=\"view-content\">\n        <h3>Jamaica</h3>\n
         \ <div class=\"views-row views-row-1 views-row-odd views-row-first views-row-last\">\n
         \     \n  <div class=\"views-field-title\">\n                <span class=\"field-content\">Cash
-        Rates<br />\n<span class=\"date-effective\">Date Effective: <span class=\"date-display-single\">May
-        22, 2013</span></span></span>\n  </div>\n  \n  <div class=\"views-field-title-1\">\n
+        Rates<br />\n<span class=\"date-effective\">Date Effective: <span class=\"date-display-single\">June
+        5, 2013</span></span></span>\n  </div>\n  \n  <div class=\"views-field-title-1\">\n
         \               <span class=\"field-content\">Cheque Rates<br />\n<span class=\"date-effective\">Date
-        Effective: <span class=\"date-display-single\">May 22, 2013</span></span></span>\n
+        Effective: <span class=\"date-display-single\">June 5, 2013</span></span></span>\n
         \ </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-label-value\">\n
         \               <span class=\"field-content\">Currency</span>\n  </div>\n
         \ \n  <div class=\"views-field-field-fx-trader-buying-label-value\">\n                <span
@@ -208,35 +209,35 @@ http_interactions:
         class=\"field-content\">Selling</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-1-value\">\n
         \               <span class=\"field-content\">USD</span>\n  </div>\n  \n  <div
         class=\"views-field-field-fx-trader-buying-1-value\">\n                <span
-        class=\"field-content\">95.95</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-1-value\">\n
-        \               <span class=\"field-content\">98.30</span>\n  </div>\n  \n
+        class=\"field-content\">96.70</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-1-value\">\n
+        \               <span class=\"field-content\">99.05</span>\n  </div>\n  \n
         \ <div class=\"views-field-field-fx-trader-currency-1-value-1\">\n                <span
         class=\"field-content\">USD</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-1-b-value\">\n
-        \               <span class=\"field-content\">97.77</span>\n  </div>\n  \n
-        \ <div class=\"views-field-field-fx-trader-selling-1-b-value\">\n                <span
-        class=\"field-content\">99.20</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-2-value\">\n
+        \               <span class=\"field-content\">-</span>\n  </div>\n  \n  <div
+        class=\"views-field-field-fx-trader-selling-1-b-value\">\n                <span
+        class=\"field-content\">-</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-2-value\">\n
         \               <span class=\"field-content\">CAD</span>\n  </div>\n  \n  <div
         class=\"views-field-field-fx-trader-buying-2-value\">\n                <span
-        class=\"field-content\">92.30</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-2-value\">\n
-        \               <span class=\"field-content\">95.10</span>\n  </div>\n  \n
+        class=\"field-content\">92.80</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-2-value\">\n
+        \               <span class=\"field-content\">95.60</span>\n  </div>\n  \n
         \ <div class=\"views-field-field-fx-trader-currency-2-value-1\">\n                <span
         class=\"field-content\">CAD</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-2-b-value\">\n
-        \               <span class=\"field-content\">94.05</span>\n  </div>\n  \n
-        \ <div class=\"views-field-field-fx-trader-selling-2-b-value\">\n                <span
-        class=\"field-content\">96.15</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-3-value\">\n
+        \               <span class=\"field-content\">-</span>\n  </div>\n  \n  <div
+        class=\"views-field-field-fx-trader-selling-2-b-value\">\n                <span
+        class=\"field-content\">-</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-3-value\">\n
         \               <span class=\"field-content\">GBP</span>\n  </div>\n  \n  <div
         class=\"views-field-field-fx-trader-buying-3-value\">\n                <span
-        class=\"field-content\">143.35</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-3-value\">\n
-        \               <span class=\"field-content\">147.35</span>\n  </div>\n  \n
+        class=\"field-content\">147.05</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-3-value\">\n
+        \               <span class=\"field-content\">151.05</span>\n  </div>\n  \n
         \ <div class=\"views-field-field-fx-trader-currency-3-value-1\">\n                <span
         class=\"field-content\">GBP</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-3-b-value\">\n
-        \               <span class=\"field-content\">146.20</span>\n  </div>\n  \n
-        \ <div class=\"views-field-field-fx-trader-selling-3-b-value\">\n                <span
-        class=\"field-content\">149.70</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-4-value\">\n
+        \               <span class=\"field-content\">-</span>\n  </div>\n  \n  <div
+        class=\"views-field-field-fx-trader-selling-3-b-value\">\n                <span
+        class=\"field-content\">-</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-4-value\">\n
         \               <span class=\"field-content\">KYD</span>\n  </div>\n  \n  <div
         class=\"views-field-field-fx-trader-buying-4-value\">\n                <span
-        class=\"field-content\">108.35</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-4-value\">\n
-        \               <span class=\"field-content\">112.05</span>\n  </div>\n  \n
+        class=\"field-content\">109.20</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-4-value\">\n
+        \               <span class=\"field-content\">112.90</span>\n  </div>\n  \n
         \ <div class=\"views-field-field-fx-trader-currency-4-value-1\">\n                <span
         class=\"field-content\">KYD</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-4-b-value\">\n
         \               <span class=\"field-content\">-</span>\n  </div>\n  \n  <div
@@ -244,8 +245,8 @@ http_interactions:
         class=\"field-content\">-</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-5-value\">\n
         \               <span class=\"field-content\">EURO</span>\n  </div>\n  \n
         \ <div class=\"views-field-field-fx-trader-buying-5-value\">\n                <span
-        class=\"field-content\">121.90</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-5-value\">\n
-        \               <span class=\"field-content\">126.20</span>\n  </div>\n  \n
+        class=\"field-content\">124.15</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-5-value\">\n
+        \               <span class=\"field-content\">128.45</span>\n  </div>\n  \n
         \ <div class=\"views-field-field-fx-trader-currency-5-value-1\">\n                <span
         class=\"field-content\">EURO</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-5-b-value\">\n
         \               <span class=\"field-content\">-</span>\n  </div>\n  \n  <div
@@ -259,7 +260,7 @@ http_interactions:
         \       <h3>Trinidad &amp; Tobago</h3>\n  <div class=\"views-row views-row-1
         views-row-odd views-row-first views-row-last\">\n      \n  <div class=\"views-field-title\">\n
         \               <span class=\"field-content\">Cash Rates<br />\n<span class=\"date-effective\">Date
-        Effective: <span class=\"date-display-single\">May 22, 2013</span></span></span>\n
+        Effective: <span class=\"date-display-single\">June 5, 2013</span></span></span>\n
         \ </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-label-value\">\n
         \               <span class=\"field-content\">Currency</span>\n  </div>\n
         \ \n  <div class=\"views-field-field-fx-trader-buying-label-value\">\n                <span
@@ -272,32 +273,33 @@ http_interactions:
         class=\"field-content\">6.46</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-2-value\">\n
         \               <span class=\"field-content\">CAD</span>\n  </div>\n  \n  <div
         class=\"views-field-field-fx-trader-buying-2-value\">\n                <span
-        class=\"field-content\">5.78</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-2-value\">\n
-        \               <span class=\"field-content\">6.38</span>\n  </div>\n  \n
+        class=\"field-content\">5.75</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-2-value\">\n
+        \               <span class=\"field-content\">6.36</span>\n  </div>\n  \n
         \ <div class=\"views-field-field-fx-trader-currency-3-value\">\n                <span
         class=\"field-content\">GBP</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-3-value\">\n
-        \               <span class=\"field-content\">8.83</span>\n  </div>\n  \n
+        \               <span class=\"field-content\">8.92</span>\n  </div>\n  \n
         \ <div class=\"views-field-field-fx-trader-selling-3-value\">\n                <span
-        class=\"field-content\">9.88</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-4-value\">\n
+        class=\"field-content\">10.04</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-4-value\">\n
         \               <span class=\"field-content\">KYD</span>\n  </div>\n  \n  <div
         class=\"views-field-field-fx-trader-buying-4-value\">\n                <span
         class=\"field-content\">-</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-4-value\">\n
         \               <span class=\"field-content\">-</span>\n  </div>\n  \n  <div
         class=\"views-field-field-fx-trader-currency-5-value\">\n                <span
         class=\"field-content\">EURO</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-5-value\">\n
-        \               <span class=\"field-content\">7.45</span>\n  </div>\n  \n
+        \               <span class=\"field-content\">7.56</span>\n  </div>\n  \n
         \ <div class=\"views-field-field-fx-trader-selling-5-value\">\n                <span
-        class=\"field-content\">8.46</span>\n  </div>\n  </div>\n    </div>\n  \n
+        class=\"field-content\">8.54</span>\n  </div>\n  </div>\n    </div>\n  \n
         \ \n  \n  \n  \n  \n</div> <!-- /.view -->\n    </div>\n  \n  \n  \n  \n</div>
         <!-- /.view -->\n </div>\n                                  </div>\n        </div>\n
         \       <!-- /.section, /#content -->\n                 <div class=\"region
         region-sidebar-second column sidebar\"><div class=\"section\">\n  <div id=\"block-block-5\"
         class=\"block block-block region-odd even region-count-1 count-2\">\n  \n
-        \ <div class=\"content\">\n    <div>\n    <a href=\"/locations\">\n<h2>Find
-        an Agent</h2>\n<p>    <img id=\"map\" src=\"/sites/all/themes/fx_trader/images/caribbean3.jpg\"
-        /></p></a>\n</div>\n  </div>\n\n  </div> <!-- /.block -->\n<div id=\"block-ad-64\"
-        class=\"block block-ad region-even odd region-count-2 count-3\">\n  \n  <div
-        class=\"content\">\n    \n<div class=\"advertisement group-tids-64\" id=\"group-id-tids-64\"><script
+        \ <div class=\"content\">\n    <div>\n\t<a href=\"/locations\"> </a>\n<h2>\n\t\t<a
+        href=\"/locations\">Find an Agent</a></h2>\n<p>\t<a href=\"/locations\"><img
+        id=\"map\" src=\"/sites/all/themes/fx_trader/images/caribbean3.jpg\" /></a></p></div>\n
+        \ </div>\n\n  </div> <!-- /.block -->\n<div id=\"block-ad-64\" class=\"block
+        block-ad region-even odd region-count-2 count-3\">\n  \n  <div class=\"content\">\n
+        \   \n<div class=\"advertisement group-tids-64\" id=\"group-id-tids-64\"><script
         type='text/javascript' src='http://www.fxtrader.gkmsonline.com/sites/all/modules/ad/serve.php?q=3&amp;t=64&amp;u=rates&amp;l=rates'></script></div>\n
         \ </div>\n\n  </div> <!-- /.block -->\n<div id=\"block-block-7\" class=\"block
         block-block region-odd even region-count-3 count-4\">\n  \n  <div class=\"content\">\n
@@ -324,5 +326,5 @@ http_interactions:
         : \"http://www\") + \".google-analytics.com/ga.js\";var s = document.getElementsByTagName(\"script\")[0];s.parentNode.insertBefore(ga,
         s);})();\n//--><!]]>\n</script>\n</body>\n</html>\n"
     http_version: 
-  recorded_at: Thu, 23 May 2013 02:10:10 GMT
+  recorded_at: Wed, 05 Jun 2013 18:23:43 GMT
 recorded_with: VCR 2.5.0
