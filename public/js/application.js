@@ -97,9 +97,11 @@ CurrencyJa.Views.TradersList = Backbone.View.extend({
   initialize: function(){
   },
 
-  addTrader: function(trader){
-    var view = new CurrencyJa.Views.Trader({model: trader});
-    this.$('tbody').append(view.render().el);
+  addTrader: function(trader) {
+    if(!$.isEmptyObject(trader.get('currencies'))) {
+        var view = new CurrencyJa.Views.Trader({model: trader});
+        this.$('tbody').append(view.render().el);
+    }
   },
 
   render: function(){
