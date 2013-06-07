@@ -18,8 +18,12 @@ helpers do
     Rack::Utils.escape_html(text)
   end
 
-  def last_update
+  def pretty_last_update
     Cambio.first.updated_at.strftime("%b %e, %Y %H:%M %Z")
+  end
+
+  def last_update
+    Cambio.first.updated_at
   end
 end
 

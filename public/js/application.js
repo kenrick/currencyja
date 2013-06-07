@@ -18,7 +18,7 @@ var CurrencyJa = new (Backbone.View.extend({
     this.$("#app").append(currencyForm.render().el);
     this.$("#app").append(tradersList.render().el);
 
-    this.$('time').each(this.localize);
+    this.$('time').timeago();
   }
 
 }))({el: document.body});
@@ -32,11 +32,24 @@ CurrencyJa.Models.Trader = Backbone.Model.extend({
     }
 
     var currency = this.get('currencies')[this.get('currency')]
-    return currency['buying'] * this.get('base');
+    return this.formatMoney(currency['buying'] * this.get('base'));
   },
 
   selling: function(){
-    return this.get('currencies')[this.get('currency')]['selling'] * this.get('base');
+    return this.formatMoney(this.get('currencies')[this.get('currency')]['selling'] * this.get('base'));
+  },
+
+  formatMoney: function(amount) {
+    return (function(c, d, t){
+      var n = amount,
+      c = isNaN(c = Math.abs(c)) ? 2 : c,
+      d = d == undefined ? "." : d,
+      t = t == undefined ? "," : t,
+      s = n < 0 ? "-" : "",
+      i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "",
+      j = (j = i.length) > 3 ? j % 3 : 0;
+     return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+    })(2, '.', ',');
   }
 });
 
@@ -63,8 +76,8 @@ CurrencyJa.Collections.Traders = Backbone.Collection.extend({
 CurrencyJa.Views.Trader = Backbone.View.extend({
   template: _.template(
       '<td class="trader-name"><%= model.get("name") %></td>' +
-      '<td class="trader-buying"><%= model.buying().toFixed(2) %></td>' +
-      '<td class="trader-selling"><%= model.selling().toFixed(2) %></td>'
+      '<td class="trader-buying"><%= model.buying() %></td>' +
+      '<td class="trader-selling"><%= model.selling() %></td>'
   ),
   className: 'trader',
   tagName: 'tr',

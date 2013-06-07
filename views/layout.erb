@@ -27,7 +27,7 @@
         </div>
         <footer>
             <hr />
-            <p>Last Updated: <time> <%= last_update %> </time> </p>
+            <p>Last Updated: <time datetime='<%= last_update %>'> <%= pretty_last_update %> </time> </p>
             <p><strong>Disclaimer:</strong> Exchange rates are subject to change without notice by each institution. This data is just for informational use only.</p>
             <p>An <a href="http://github.com/kenrick/currencyja">Open Source</a> Project By: <a href="http://github.com/kenrick"> Kenrick Beckett </a>.</p>
             <p>An API is also avaliable see the <a href="http://kenrick.me/currencyja">docs</a></p>
@@ -38,6 +38,7 @@
         <script src="/js/underscore.js"></script>
         <script src="/js/json2.js"></script>
         <script src="/js/backbone.js"></script>
+        <script src="/js/jquery-timeago.js"></script>
         <script src="/js/application.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
