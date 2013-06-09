@@ -1,2 +1,2 @@
-require 'currencyja'
+require './currencyja'
 run Sinatra::Application
