@@ -1,5 +1,2 @@
-require './currencyja.rb'
-
-set :environment, :production
-
+require 'currencyja'
 run Sinatra::Application

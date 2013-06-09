@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'sinatra'
 require 'sinatra/activerecord'
-require 'activerecord-postgres-hstore'
 require 'json'
 require_relative 'lib/traders'
 
