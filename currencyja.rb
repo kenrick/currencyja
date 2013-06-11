@@ -18,11 +18,11 @@ helpers do
   end
 
   def pretty_last_update
-    Cambio.first.updated_at.strftime("%b %e, %Y %H:%M %Z")
+    last_update.strftime("%b %e, %Y %H:%M %Z")
   end
 
   def last_update
-    Cambio.first.updated_at
+    Cambio.first(:order => 'updated_at DESC').updated_at
   end
 end
 
