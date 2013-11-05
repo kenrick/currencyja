@@ -1,7 +1,6 @@
 require 'nokogiri'
 require 'net/http'
 
-
 module Trader
   class Base
 
