@@ -25,18 +25,18 @@ var CurrencyJa = new (Backbone.View.extend({
 
 // The Trader Model
 CurrencyJa.Models.Trader = Backbone.Model.extend({
-  defaults: {currency: 'usd', base: 1},
+  defaults: {currency: 'USD', base: 1},
   buying: function(){
     if(this.get('currency') === 'eur' && this.get('name') === 'fxtrader'){
       this.set('currency', 'euro');
     }
 
     var currency = this.get('currencies')[this.get('currency')]
-    return this.formatMoney(currency['buying'] * this.get('base'));
+    return this.formatMoney(currency['buy_cash'] * this.get('base'));
   },
 
   selling: function(){
-    return this.formatMoney(this.get('currencies')[this.get('currency')]['selling'] * this.get('base'));
+    return this.formatMoney(this.get('currencies')[this.get('currency')]['sell_cash'] * this.get('base'));
   },
 
   formatMoney: function(amount) {
@@ -57,7 +57,7 @@ CurrencyJa.Models.Trader = Backbone.Model.extend({
 CurrencyJa.Collections.Traders = Backbone.Collection.extend({
   model: CurrencyJa.Models.Trader,
   comparator: function(trader1, trader2){
-    return trader1.get('currencies')['usd']['buying'] < trader2.get('currencies')['usd']['buying']
+    return trader1.get('currencies')['USD']['buy_cash'] < trader2.get('currencies')['USD']['buy_cash']
   },
 
   updateBase: function(base) {

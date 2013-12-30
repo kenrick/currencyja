@@ -8,7 +8,7 @@ gem 'pg'
 gem 'activerecord-postgres-hstore'
 gem 'rake'
 gem 'json'
-
+gem 'forex'
 group :development, :test do
   gem 'rspec'
   gem 'vcr'

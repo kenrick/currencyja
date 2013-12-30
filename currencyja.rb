@@ -2,7 +2,7 @@ require 'rubygems'
 require 'sinatra'
 require 'sinatra/activerecord'
 require 'json'
-require_relative 'lib/traders'
+require 'forex'
 
 ActiveRecord::Base.include_root_in_json = false
 
