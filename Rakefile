@@ -7,7 +7,7 @@ task :update_traders  do |t|
     begin
         currencies = klass.fetch
         unless currencies.empty?
-            Cambio.where(name: trader).first_or_create.update_attributes(currencies: currencies)
+            Cambio.where(name: klass.name).first_or_create.update_attributes(currencies: currencies)
             puts "Updated #{trader}"
         end
     rescue Exception => e
