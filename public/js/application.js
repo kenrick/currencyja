@@ -26,17 +26,24 @@ var CurrencyJa = new (Backbone.View.extend({
 // The Trader Model
 CurrencyJa.Models.Trader = Backbone.Model.extend({
   defaults: {currency: 'USD', base: 1},
-  buying: function(){
-    if(this.get('currency') === 'eur' && this.get('name') === 'fxtrader'){
-      this.set('currency', 'euro');
+  buying: function(type){
+    var buying_type = "buy_" + type;
+
+    if(this.get('currency') === 'EUR' && this.get('name') === 'FX Traders'){
+      this.set('currency', 'EURO');
     }
 
     var currency = this.get('currencies')[this.get('currency')]
-    return this.formatMoney(currency['buy_cash'] * this.get('base'));
+    var money = this.formatMoney(currency[buying_type] * this.get('base'));
+    return (money != 0.00) ? money : "-"
   },
 
-  selling: function(){
-    return this.formatMoney(this.get('currencies')[this.get('currency')]['sell_cash'] * this.get('base'));
+  selling: function(type){
+    var selling_type = "sell_" + type;
+
+    var currency = this.get('currencies')[this.get('currency')]
+    var money = this.formatMoney(currency[selling_type] * this.get('base'));
+    return (money != 0.00) ? money : "-"
   },
 
   formatMoney: function(amount) {
@@ -76,8 +83,10 @@ CurrencyJa.Collections.Traders = Backbone.Collection.extend({
 CurrencyJa.Views.Trader = Backbone.View.extend({
   template: _.template(
       '<td class="trader-name"><%= model.get("name") %></td>' +
-      '<td class="trader-buying"><%= model.buying() %></td>' +
-      '<td class="trader-selling"><%= model.selling() %></td>'
+      '<td class="trader-buying"><%= model.buying("cash") %></td>' +
+      '<td class="trader-buying"><%= model.buying("draft") %></td>' +
+      '<td class="trader-selling"><%= model.selling("cash") %></td>' +
+      '<td class="trader-selling"><%= model.selling("draft") %></td>'
   ),
   className: 'trader',
   tagName: 'tr',
@@ -99,8 +108,10 @@ CurrencyJa.Views.TradersList = Backbone.View.extend({
     '<thead>' +
       '<tr>' +
         '<th>Trader</th>' +
-        '<th>Buying</th>' +
-        '<th>Selling</th>' +
+        '<th>Buy Cash</th>' +
+        '<th>Buy Draft</th>' +
+        '<th>Sell Cash</th>' +
+        '<th>Sell Draft</th>' +
       '</tr>' +
     '</thead>'+
     '<tbody>'+
@@ -126,7 +137,10 @@ CurrencyJa.Views.TradersList = Backbone.View.extend({
 
 CurrencyJa.Views.CurrencyForm = Backbone.View.extend({
   template: _.template(
-    '<form> <input class="input-small" name="base" type="text" placeholder="Enter Amount" />' +
+    '<form class="form-inline">' +
+      '<div class="form-group has-success">' +
+        '<input name="base" type="text" class="form-control" placeholder="Enter Amount">'+
+      '</div>' +
     '</form>'
   ),
 
@@ -154,10 +168,10 @@ CurrencyJa.Views.CurrencyForm = Backbone.View.extend({
 CurrencyJa.Views.CurrencyButtons = Backbone.View.extend({
   template: _.template(
     '<div class="btn-group">' +
-      '<button class="btn active">usd</button>' +
-      '<button class="btn">gbp</button>' +
-      '<button class="btn">cad</button>' +
-      '<button class="btn">eur</button>' +
+      '<button class="btn btn-default active">USD</button>' +
+      '<button class="btn btn-default">GBP</button>' +
+      '<button class="btn btn-default">CAD</button>' +
+      '<button class="btn btn-default">EUR</button>' +
     '</div>'
   ),
 
