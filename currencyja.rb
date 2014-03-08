@@ -3,11 +3,20 @@ require 'sinatra'
 require 'sinatra/activerecord'
 require 'json'
 require 'forex'
+require 'twitter'
 
 ActiveRecord::Base.include_root_in_json = false
 
 class Cambio < ActiveRecord::Base
   serialize :currencies
+end
+
+class Trader < ActiveRecord::Base
+  has_many :currencies
+end
+
+class Currency < ActiveRecord::Base
+  belongs_to :trader
 end
 
 set :database, ENV['DATABASE_URL'] || 'postgres://localhost/currencyja'
