@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '1.9.3'
+
 gem 'sinatra'
 gem 'nokogiri'
 gem 'activerecord'
@@ -14,6 +16,5 @@ group :development, :test do
   gem 'rspec'
   gem 'vcr'
   gem 'webmock'
-  gem 'pry'
   gem 'shoulda'
 end
