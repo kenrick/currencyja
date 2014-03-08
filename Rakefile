@@ -1,7 +1,5 @@
 require "./currencyja"
 require "sinatra/activerecord/rake"
-require "pry"
-
 
 task :update_traders  do |t|
 
