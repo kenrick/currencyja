@@ -14,6 +14,8 @@ gem 'forex'
 gem 'twitter'
 group :development, :test do
   gem 'rspec'
+  gem 'rspec-mocks'
+  gem 'pry'
   gem 'vcr'
   gem 'webmock'
   gem 'shoulda'
