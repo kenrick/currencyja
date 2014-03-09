@@ -1,12 +1,17 @@
+$LOAD_PATH.unshift(File.dirname(__FILE__))
+
 require 'rubygems'
 require 'sinatra'
 require 'sinatra/activerecord'
 require 'json'
 require 'forex'
-require 'twitter'
+require 'lib/tweet'
+require 'lib/tweet_decorator'
+require 'lib/trader_updater'
 
 ActiveRecord::Base.include_root_in_json = false
 
+# MODELS
 class Cambio < ActiveRecord::Base
   serialize :currencies
 end
@@ -16,11 +21,14 @@ class Trader < ActiveRecord::Base
 end
 
 class Currency < ActiveRecord::Base
+  NOTES = %w{ USD EUR CAD GBP }
+
   belongs_to :trader
 end
 
 set :database, ENV['DATABASE_URL'] || 'postgres://localhost/currencyja'
 
+# HELPERS
 helpers do
   def h(text)
     Rack::Utils.escape_html(text)
@@ -35,7 +43,7 @@ helpers do
   end
 end
 
-
+# ROUTES
 get '/' do
   @cambios = Cambio.all.to_json
   erb :index
