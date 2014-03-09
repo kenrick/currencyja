@@ -1,5 +1,4 @@
-require File.join(File.dirname(__FILE__), '..', 'currencyja')
-require "shoulda"
+require 'spec_helper'
 
 describe Currency do
   it { should belong_to(:trader) }
