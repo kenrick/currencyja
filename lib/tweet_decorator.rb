@@ -3,7 +3,7 @@ class TweetDecorator < Struct.new(:current, :previous, :rate_type)
   HUMAN_RATE_TYPES = {
     buy_cash: "buying cash",
     buy_draft: "buying draft",
-    sell_cash: "buying cash",
+    sell_cash: "selling cash",
     sell_draft: "selling draft"
   }
 
