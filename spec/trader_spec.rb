@@ -1,6 +1,5 @@
-require File.join(File.dirname(__FILE__), '..', 'currencyja')
-require "shoulda"
+require 'spec_helper'
 
-describe Trader do 
+describe Trader do
   it { should have_many(:currencies) }
 end
