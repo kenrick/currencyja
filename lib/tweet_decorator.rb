@@ -7,7 +7,7 @@ class TweetDecorator < Struct.new(:current, :previous, :rate_type)
     sell_draft: "draft selling"
   }
 
-  TRADER_TWITTER_HANDERS = {
+  TRADER_TWITTER_HANDLES = {
     "NCB" => "@ncbja",
     "JMMB" => "@JMMBGROUP",
     "BNS" => "@ScotiabankJM",
@@ -29,7 +29,7 @@ class TweetDecorator < Struct.new(:current, :previous, :rate_type)
   end
 
   def trader_handle
-    TRADER_TWITTER_HANDERS[trader_short_name] || trader_short_name
+    TRADER_TWITTER_HANDLES[trader_short_name] || trader_short_name
   end
 
   def trader_short_name
