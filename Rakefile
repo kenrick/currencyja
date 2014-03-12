@@ -16,8 +16,7 @@ task :update_traders  do |t|
             end
         end
     rescue Exception => e
-        # puts "Failed to Parse #{trader} because of #{e}"
-        raise e
+        puts "Failed to Parse #{trader.short_name} because of #{e}"
     end
   end
 end
