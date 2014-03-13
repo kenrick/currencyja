@@ -1,5 +1,8 @@
 # Currency Jamaica
 
+[![Code Climate](https://codeclimate.com/github/kenrick/currencyja.png)](https://codeclimate.com/github/kenrick/currencyja)
+[![Build Status](https://api.travis-ci.org/kenrick/currencyja.png)](https://travis-ci.org/kenrick/currencyja)
+
 Keep track of the Jamaican currency and see how it how it stacks up to the 4 major foreign currencies (`USD`, `CAD`, `EUR`, `GBP`).
 
 ## Features

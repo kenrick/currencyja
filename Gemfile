@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '1.9.3'
+
 gem 'sinatra'
 gem 'nokogiri'
 gem 'activerecord'
@@ -9,9 +11,12 @@ gem 'activerecord-postgres-hstore'
 gem 'rake'
 gem 'json'
 gem 'forex'
+gem 'twitter'
 group :development, :test do
   gem 'rspec'
+  gem 'rspec-mocks'
+  gem 'pry'
   gem 'vcr'
   gem 'webmock'
-  gem 'pry'
+  gem 'shoulda'
 end
