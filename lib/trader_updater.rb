@@ -35,11 +35,7 @@ class TraderUpdater < Struct.new(:trader, :note, :currency_hash)
   end
 
   def note_rates
-    unless note == "EUR" && trader.short_name == "FXTRADERS"
-      currency_hash[note]
-    else
-      currency_hash["EURO"]
-    end
+    currency_hash[note]
   end
 
   def any_currencies_exists?

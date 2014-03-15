@@ -29,10 +29,6 @@ CurrencyJa.Models.Trader = Backbone.Model.extend({
   buying: function(type){
     var buying_type = "buy_" + type;
 
-    if(this.get('currency') === 'EUR' && this.get('name') === 'FX Traders'){
-      this.set('currency', 'EURO');
-    }
-
     var currency = this.get('currencies')[this.get('currency')]
     var money = this.formatMoney(currency[buying_type] * this.get('base'));
     return (money != 0.00) ? money : "-"

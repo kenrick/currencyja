@@ -74,16 +74,6 @@ describe TraderUpdater do
       subject.note_rates.should eq(currency_hash["USD"])
     end
 
-    context "trader is FXTrader" do
-      let(:note) { "EUR"}
-      let(:trader) { double(short_name: "FXTRADERS") }
-      let(:currency_hash) { { "EURO" => { buy_cash: BigDecimal.new("109.2"), sell_cash: BigDecimal.new("110.2") } } }
-
-      it "should return rates for EURO" do
-        subject.note_rates.should eq(currency_hash["EURO"])
-      end
-
-    end
   end
 
   describe "#tweet_changes" do
