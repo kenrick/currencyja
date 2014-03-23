@@ -10,7 +10,7 @@ gem 'pg'
 gem 'activerecord-postgres-hstore'
 gem 'rake'
 gem 'json'
-gem 'forex', '~>0.2.0'
+gem 'forex', '~>0.3.1'
 gem 'twitter'
 group :development, :test do
   gem 'rspec'
