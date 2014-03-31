@@ -5,10 +5,12 @@ require 'sinatra'
 require 'sinatra/activerecord'
 require 'json'
 require 'forex'
+require 'gon-sinatra'
 require 'lib/tweet'
 require 'lib/tweet_decorator'
 require 'lib/trader_updater'
 
+Sinatra::register Gon::Sinatra
 ActiveRecord::Base.include_root_in_json = false
 
 # MODELS
@@ -45,7 +47,7 @@ end
 
 # ROUTES
 get '/' do
-  @cambios = Cambio.all.to_json
+  gon.traders = Cambio.all
   erb :index
 end
 

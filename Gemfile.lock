@@ -32,6 +32,8 @@ GEM
       activesupport
       json
       nokogiri
+    gon-sinatra (0.1.0)
+      sinatra
     http (0.5.0)
       http_parser.rb
     http_parser.rb (0.5.3)
@@ -102,6 +104,7 @@ DEPENDENCIES
   activerecord
   activerecord-postgres-hstore
   forex (~> 0.3.1)
+  gon-sinatra
   json
   nokogiri
   pg

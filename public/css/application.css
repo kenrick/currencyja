@@ -7,4 +7,8 @@ h1{ text-align: center;}
 
 .currencies .btn{ text-transform: uppercase;}
 
+.traders-list {
+  font-size: 14px;
+}
+
 footer {text-align: center;}

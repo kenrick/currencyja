@@ -12,6 +12,7 @@ gem 'rake'
 gem 'json'
 gem 'forex', '~>0.3.1'
 gem 'twitter'
+gem 'gon-sinatra'
 group :development, :test do
   gem 'rspec'
   gem 'rspec-mocks'

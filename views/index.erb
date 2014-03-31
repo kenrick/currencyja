@@ -1,1 +1,37 @@
-<div id="app" data-traders="<%= h @cambios %>"></div>
+<div id="app" ng-controller="TradersCtrl">
+  <div class="currencies">
+    <div class="btn-group">
+      <button ng-class="{active: currency  == 'USD'}" ng-click="changeCurrency('USD')" class="btn btn-default">USD</button>
+      <button ng-class="{active: currency  == 'GBP'}" ng-click="changeCurrency('GBP')" class="btn btn-default">GBP</button>
+      <button ng-class="{active: currency  == 'CAD'}" ng-click="changeCurrency('CAD')" class="btn btn-default">CAD</button>
+      <button ng-class="{active: currency  == 'EUR'}" ng-click="changeCurrency('EUR')" class="btn btn-default">EUR</button>
+    </div>
+  </div>
+  <div class="currency-form">
+    <form class="form-inline">
+      <div class="form-group has-success">
+        <input ng-model="base" name="base" type="text" class="form-control" placeholder="Enter Amount">
+      </div>
+    </form>
+  </div>
+  <table class="traders-list table table-striped">
+    <thead>
+      <tr>
+        <th>Trader</th>
+        <th>Buy Cash</th>
+        <th>Buy Draft</th>
+        <th>Sell Cash</th>
+        <th>Sell Draft</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="trader" ng-repeat="trader in traders | orderBy:'buyCash':true">
+        <td class="trader-name">{{ trader.name }}</td>
+        <td class="trader-buying">{{ multiplyByBase(trader.buyCash) | currency }}</td>
+        <td class="trader-buying">{{ multiplyByBase(trader.buyDraft) | currency }}</td>
+        <td class="trader-selling">{{ multiplyByBase(trader.sellCash) | currency }}</td>
+        <td class="trader-selling">{{ multiplyByBase(trader.sellDraft) | currency }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
