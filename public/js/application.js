@@ -1,6 +1,5 @@
 angular.module("currencyJa", [])
   .controller("TradersCtrl", function ($scope, traderService) {
-    $scope.base = 1;
     $scope.currency = "USD";
     $scope.traders = traderService.findByCurrency($scope.currency);
 
