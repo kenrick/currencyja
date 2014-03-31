@@ -12,6 +12,6 @@ class Tweet
   end
 
   def create(message)
-    @client.update(message)
+    # @client.update(message)
   end
 end

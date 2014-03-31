@@ -1,6 +1,5 @@
 require "./currencyja"
 require "sinatra/activerecord/rake"
-
 task :update_traders  do |t|
 
   Forex::Trader.all.each do |trader, klass|
