@@ -4,7 +4,7 @@ angular.module("currencyJa", [])
     $scope.traders = traderService.findByCurrency($scope.currency);
 
     $scope.multiplyByBase = function(amount) {
-      var base = parseFloat($scope.base) ? $scope.base : 1
+      var base = parseFloat($scope.base) ? parseFloat($scope.base) : 1
       return amount * base
     }
 
