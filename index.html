@@ -1,79 +1,82 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Currency Jamaica by kenrick</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
     <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <title>Currency Jamaica by kenrick</title>
   </head>
+
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/kenrick/currencyja">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/kenrick/currencyja/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/kenrick/currencyja/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+    <div id="container">
+      <div class="inner">
 
-    <div class="wrapper">
-
-      <section>
-        <div id="title">
+        <header>
           <h1>Currency Jamaica</h1>
-          <p>Currency Jamaica, a simple way to keep track of how much the JMD is being traded for and where to get the best price.</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/kenrick">kenrick</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
-        </div>
+          <h2>Currency Jamaica, a simple way to keep track of how much the JMD is being traded for and where to get the best price.</h2>
+        </header>
 
-        <h1>Currency Jamaica API.</h1>
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/kenrick/currencyja/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/kenrick/currencyja/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/kenrick/currencyja" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a name="currency-jamaica-api" class="anchor" href="#currency-jamaica-api"><span class="octicon octicon-link"></span></a>Currency Jamaica API.</h1>
 
 <p>This will provide a simple interface over HTTP for accessing the data.</p>
 
-<h2>Supported Traders / Cambio</h2>
+<h2>
+<a name="supported-traders--cambio" class="anchor" href="#supported-traders--cambio"><span class="octicon octicon-link"></span></a>Supported Traders / Cambio</h2>
 
 <ul>
 <li>Scotiabank</li>
 <li>National Commercial Bank</li>
 <li>Jamaica National Building Society</li>
 <li>FX Trader</li>
-</ul><h2>Supported Currencies</h2>
+</ul><h2>
+<a name="supported-currencies" class="anchor" href="#supported-currencies"><span class="octicon octicon-link"></span></a>Supported Currencies</h2>
 
 <ul>
 <li>USD</li>
 <li>CAD</li>
 <li>EUR</li>
 <li>GBP</li>
-</ul><h2>Endpoints</h2>
+</ul><h2>
+<a name="endpoints" class="anchor" href="#endpoints"><span class="octicon octicon-link"></span></a>Endpoints</h2>
 
 <p>This route will return all the traders and all the currencies.</p>
 
-<pre><code>http://currencyja.herokuapp.com/api/traders.json
+<pre><code>http://currencyja.com/api/traders.json
 </code></pre>
 
 <p>This route will return all the traders with the given currency.</p>
 
-<pre><code>http://currencyja.herokuapp.com/api/traders/(:currency).json
+<pre><code>http://currencyja.com/api/traders/(:currency).json
 </code></pre>
 
-<h3>Options: <code>usd</code> <code>cad</code> <code>eur</code> <code>gbp</code>
+<h3>
+<a name="options-usd-cad-eur-gbp" class="anchor" href="#options-usd-cad-eur-gbp"><span class="octicon octicon-link"></span></a>Options: <code>usd</code> <code>cad</code> <code>eur</code> <code>gbp</code>
 </h3>
-      </section>
+        </section>
 
+        <footer>
+          Currency Jamaica is maintained by <a href="https://github.com/kenrick">kenrick</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
   </body>
 </html>
