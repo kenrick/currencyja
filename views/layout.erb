@@ -14,11 +14,6 @@
 
         <link rel="stylesheet" href="/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/application.css">
-        <style type="text/css">
-            [ng-cloak] {
-              display: none !important;
-            }
-        </style>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -37,13 +32,15 @@
             <p>An <a href="http://github.com/kenrick/currencyja">Open Source</a> Project By: <a href="http://github.com/kenrick"> Kenrick Beckett </a>.</p>
             <p>An API is also avaliable see the <a href="http://kenrick.me/currencyja">docs</a></p>
             <a href="https://twitter.com/kenrick1991" class="twitter-follow-button" data-show-count="false">Follow @kenrick1991</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
         </footer>
         <%= include_gon %>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.12.2/JSXTransformer.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
         <script src="/js/jquery-timeago.js"></script>
-        <script src="/js/application.js"></script>
+        <script type="text/jsx" src="/js/application.jsx"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
