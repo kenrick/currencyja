@@ -1,23 +1,24 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
-
-gem 'sinatra'
-gem 'nokogiri'
-gem 'activerecord'
-gem 'sinatra-activerecord'
+gem 'rails', '4.2.0'
 gem 'pg'
-gem 'activerecord-postgres-hstore'
-gem 'rake'
-gem 'json'
+gem 'sass-rails', '~> 5.0'
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails', '~> 4.1.0'
+gem 'jquery-rails'
+gem 'bootstrap-sass', '~> 3.3.3'
+gem 'turbolinks'
+gem 'jbuilder', '~> 2.0'
+gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'forex', '~>0.4.0'
 gem 'twitter'
-gem 'gon-sinatra'
+gem 'gon'
+gem 'rabl-rails'
+
 group :development, :test do
-  gem 'rspec'
-  gem 'rspec-mocks'
-  gem 'pry'
-  gem 'vcr'
-  gem 'webmock'
-  gem 'shoulda'
+  gem 'byebug'
+  gem 'web-console', '~> 2.0'
+  gem 'spring'
+  gem 'rspec-rails'
+  gem 'shoulda-matchers', require: false
 end
