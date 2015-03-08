@@ -2,6 +2,6 @@ language: ruby
 rvm:
   - 2.2.0
 before_script:
-  - psql -c 'create database currencyja;' -U postgres
+  - psql -c 'create database currencyja_test;' -U postgres
   - bundle exec rake db:migrate
 script: bundle exec rspec
