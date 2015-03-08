@@ -1,17 +1,52 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.page{ margin: 0 auto; width: 600px;}
-h1{ text-align: center;}
+$money-green: #216C2A;
 
-/*.trader-name { text-transform: uppercase;}*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
-.currency-form, .currencies{ text-align: center; margin: 10px 0;}
+header {
+  background: $money-green;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
 
-.currencies .btn{ text-transform: uppercase;}
+.currency-form, .currencies {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.currencies {
+  .btn {
+    text-transform: uppercase;
+  }
+}
 
 .traders-list {
   font-size: 14px;
+
+  td {
+    word-wrap: break-all;
+  }
 }
 
-footer {text-align: center;}
+footer {
+  text-align: center;
+}
+
+
+@media (max-width:440px) {
+  header {
+    padding: 10px 0;
+    margin-bottom: 10px;
+
+    h1 {
+      font-size: 30px;
+      margin: 5px 0;
+    }
+  }
+}

@@ -7,31 +7,38 @@
       <button ng-class="{active: currency  == 'EUR'}" ng-click="changeCurrency('EUR')" class="btn btn-default">EUR</button>
     </div>
   </div>
-  <div class="currency-form">
+  <div class="hidden-xs currency-form">
     <form class="form-inline">
       <div class="form-group has-success">
         <input ng-model="base" name="base" type="text" class="form-control" placeholder="Enter Amount">
       </div>
     </form>
   </div>
-  <table class="traders-list table table-striped">
-    <thead>
-      <tr>
-        <th>Trader</th>
-        <th>Buy Cash</th>
-        <th>Buy Draft</th>
-        <th>Sell Cash</th>
-        <th>Sell Draft</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="trader" ng-repeat="trader in traders | orderBy:'buyCash':true">
-        <td class="trader-name">{{ trader.name }}</td>
-        <td class="trader-buying">{{ multiplyByBase(trader.buyCash) | currency }}</td>
-        <td class="trader-buying">{{ multiplyByBase(trader.buyDraft) | currency }}</td>
-        <td class="trader-selling">{{ multiplyByBase(trader.sellCash) | currency }}</td>
-        <td class="trader-selling">{{ multiplyByBase(trader.sellDraft) | currency }}</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 col-xs-12">
+      <table class="traders-list table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>Trader</th>
+            <th>Buy Cash</th>
+            <th>Buy Draft</th>
+            <th>Sell Cash</th>
+            <th>Sell Draft</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="trader" ng-repeat="trader in traders | orderBy:'buyCash':true">
+            <td class="trader-name">
+              <span class="hidden-xs">{{ trader.name }}</span>
+              <span class="visible-xs-inline">{{ trader.shortName }}</span>
+            </td>
+            <td class="trader-buying">{{ multiplyByBase(trader.buyCash) | currency }}</td>
+            <td class="trader-buying">{{ multiplyByBase(trader.buyDraft) | currency }}</td>
+            <td class="trader-selling">{{ multiplyByBase(trader.sellCash) | currency }}</td>
+            <td class="trader-selling">{{ multiplyByBase(trader.sellDraft) | currency }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
