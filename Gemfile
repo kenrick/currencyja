@@ -12,8 +12,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'forex', '~>0.4.0'
 gem 'twitter'
+gem 'rabl'
+gem 'oj'
 gem 'gon'
-gem 'rabl-rails'
 
 group :development, :test do
   gem 'byebug'
