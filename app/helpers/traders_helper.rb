@@ -4,6 +4,6 @@ module TradersHelper
   end
 
   def last_update
-    Cambio.order('updated_at DESC').first.updated_at
+    Trader.order('updated_at DESC').first.updated_at.to_time
   end
 end

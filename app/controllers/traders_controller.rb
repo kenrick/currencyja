@@ -1,5 +1,6 @@
 class TradersController < ApplicationController
   def index
-    gon.traders = Cambio.all
+    @traders = Trader.includes(:currencies).all
+    gon.rabl as: "traders"
   end
 end
