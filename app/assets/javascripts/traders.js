@@ -19,6 +19,7 @@ angular.module("currencyJa", [])
       angular.forEach(gon.traders, function(trader, key) {
         traders.push({
           name: trader.name,
+          shortName: trader.short_name,
           buyCash: trader.currencies[currency]['buy_cash'],
           buyDraft: trader.currencies[currency]['buy_draft'],
           sellCash: trader.currencies[currency]['sell_cash'],
@@ -29,7 +30,3 @@ angular.module("currencyJa", [])
       return traders;
     };
   });
-
-$(function() {
-  $('time').timeago();
-});
