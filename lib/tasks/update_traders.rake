@@ -1,15 +1,23 @@
 task update_traders: [:environment]  do |t|
+  FetchError = StandardError
+
   ActiveRecord::Base.logger = nil # Mutes ActiveRecord verbose logger
-  Forex::Trader.all.each do |trader, klass|
+  Forex::Trader.all.each do |trader_name, klass|
     begin
-      trader = Trader.where(name: klass.name, short_name: trader).first_or_create
-      fetch_currencies = klass.fetch
-      unless fetch_currencies.empty?
-        Cambio.where(name: klass.name).first_or_create.update_attributes(currencies: fetch_currencies)
-        puts "Updated #{trader.short_name}"
+      fetched_currencies = klass.fetch
+      raise FetchError if fetched_currencies.empty?
+
+      trader = Trader.where(name: klass.name, short_name: trader_name).first_or_create
+
+      Currency::Notes.each do |note|
+        currency = trader.currencies.where(note: note).first_or_create!
+        currency.update_attributes(fetched_currencies[note])
       end
+
+      trader.touch
+      puts "Updated #{trader_name}"
     rescue Exception => e
-      puts "Failed to Parse #{trader.short_name} because of #{e}"
+      puts "Failed to Parse #{trader_name} because of #{e}"
     end
   end
 end
