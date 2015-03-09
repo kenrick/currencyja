@@ -1,5 +1,5 @@
 angular.module("currencyJa", [])
-  .controller("TradersCtrl", function ($scope, traderService) {
+  .controller("TradersCtrl", ["$scope", "traderService", function ($scope, traderService) {
     $scope.currency = "USD";
     $scope.traders = traderService.findByCurrency($scope.currency);
 
@@ -12,7 +12,7 @@ angular.module("currencyJa", [])
       $scope.currency = currency;
       $scope.traders = traderService.findByCurrency($scope.currency);
     }
-  })
+  }])
   .service('traderService', function() {
     this.findByCurrency = function(currency) {
       var traders = []
