@@ -10,8 +10,10 @@ class Trader < ActiveRecord::Base
   end
 
   def status
-    return :red if updated_at < 1.hour.ago
-
-    :green
+    if updated_at > 1.hour.ago
+      :green
+    else
+      :red
+    end
   end
 end

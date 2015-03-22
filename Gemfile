@@ -17,6 +17,7 @@ gem 'twitter'
 gem 'rabl'
 gem 'oj'
 gem 'gon'
+gem 'responders', '~> 2.0'
 
 group :development, :test do
   gem 'byebug'
