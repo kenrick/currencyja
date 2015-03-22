@@ -24,6 +24,7 @@
             <th>Buy Draft</th>
             <th>Sell Cash</th>
             <th>Sell Draft</th>
+            <th class="hidden-xs">Status</th>
           </tr>
         </thead>
         <tbody>
@@ -36,6 +37,7 @@
             <td class="trader-buying">{{ multiplyByBase(trader.buyDraft) | currency }}</td>
             <td class="trader-selling">{{ multiplyByBase(trader.sellCash) | currency }}</td>
             <td class="trader-selling">{{ multiplyByBase(trader.sellDraft) | currency }}</td>
+            <td class="hidden-xs"><span class="circle {{ trader.status }}" title="{{ trader.statusMessage }}"></span></td>
           </tr>
         </tbody>
       </table>

@@ -1,8 +1,4 @@
 collection @traders
-attributes :name, :short_name
+attributes :name, :short_name, :status
 
-node :currencies do |trader|
-  trader.currencies.reduce({}) {
-    |h, v| h.merge(Hash[v.note, partial('currencies/show', object: v)])
-  }
-end
+attribute currencies_hash: :currencies

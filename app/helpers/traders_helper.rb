@@ -4,6 +4,6 @@ module TradersHelper
   end
 
   def last_update
-    Trader.order('updated_at DESC').first.updated_at.to_time
+    Trader.last_updated.updated_at.to_time
   end
 end

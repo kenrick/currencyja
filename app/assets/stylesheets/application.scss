@@ -38,6 +38,22 @@ footer {
   text-align: center;
 }
 
+.circle {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: block;
+  margin: 0 auto;
+
+  &.green {
+    background: $money-green;
+  }
+
+  &.red {
+    background: red;
+  }
+}
+
 
 @media (max-width:440px) {
   header {
