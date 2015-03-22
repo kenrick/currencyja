@@ -5,7 +5,9 @@ angular.module('currencyJa', [])
 
     $scope.multiplyByBase = function(amount) {
       var base = parseFloat($scope.base) || 1;
-      return amount * base;
+      if (amount) {
+        return amount * base;
+      }
     };
 
     $scope.changeCurrency = function(currency) {
