@@ -68,7 +68,7 @@ GEM
     execjs (2.4.0)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
-    forex (0.4.0)
+    forex (0.4.1)
       activesupport
       json
       nokogiri
@@ -220,7 +220,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3.3)
   byebug
   coffee-rails (~> 4.1.0)
-  forex (~> 0.4.0)
+  forex (~> 0.4.1)
   gon
   jbuilder (~> 2.0)
   jquery-rails

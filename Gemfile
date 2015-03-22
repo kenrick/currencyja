@@ -12,7 +12,7 @@ gem 'bootstrap-sass', '~> 3.3.3'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'forex', '~>0.4.0'
+gem 'forex', '~>0.4.1'
 gem 'twitter'
 gem 'rabl'
 gem 'oj'
